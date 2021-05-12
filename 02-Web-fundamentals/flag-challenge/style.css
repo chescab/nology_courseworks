@@ -2,24 +2,28 @@
     background-color: grey;
     height: 300px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .black {
     background-color: black;
     height: 100px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .red {
     background-color: red;
     height: 100px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .yellow {
     background-color: yellow;
     height: 100px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .one {
@@ -27,6 +31,7 @@
     background-color: blue;
     height: 300px;
     width: 100px;
+    border-radius: 5px;
 }
 
 .two {
@@ -34,6 +39,7 @@
     background-color: white;
     height: 300px;
     width: 100px;
+    border-radius: 5px;
 }
 
 .three {
@@ -42,4 +48,5 @@
     height: 300px;
     width: 100px;
     margin: auto;
+    border-radius: 5px;
 }
