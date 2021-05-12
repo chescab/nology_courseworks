@@ -26,3 +26,25 @@ header h1 {
     font-size: 40px;
 }
 
+.card {
+    width: 300px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: midnightblue;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    transition: opacity 0.3 ease;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card img {
+    margin 10px;
+    min-height: 300px;
+    border-radius: 30px;
+}
