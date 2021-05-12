@@ -36,7 +36,8 @@ header h1 {
     background-color: white;
     color: midnightblue;
     box-shadow: 5px 5px 5px 5px lightgrey;
-    transition: opacity 0.3 ease;
+    transition: 0.3 ease;
+    opacity: 0.5;
 }
 
 .card:hover {
@@ -47,4 +48,22 @@ header h1 {
     margin 10px;
     min-height: 300px;
     border-radius: 30px;
+}
+
+h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#penelope-list {
+    list-style-type: none;
+}
+
+li:hover {
+    color: #1182EB;
+}
+
+span {
+    font-size: 1.5em;
+    color: #B48CE0;
 }
