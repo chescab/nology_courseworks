@@ -2,7 +2,6 @@
     background-color: grey;
     height: 300px;
     width: 300px;
-    border-radius: 5px;
 }
 
 .black {
@@ -23,7 +22,6 @@
     background-color: yellow;
     height: 100px;
     width: 300px;
-    border-radius: 5px;
 }
 
 .one {
@@ -49,4 +47,28 @@
     width: 100px;
     margin: auto;
     border-radius: 5px;
+}
+
+.french-flag:hover .one {
+    background: green;
+}
+
+.french-flag:hover .two {
+    background: white;
+}
+
+.french-flag:hover .three {
+    background: orange;
+}
+
+.german-flag:hover .black{
+    background: red;
+}
+
+.german-flag:hover .red{
+    background: white;
+}
+
+.german-flag:hover .yellow{
+    background: green;
 }
