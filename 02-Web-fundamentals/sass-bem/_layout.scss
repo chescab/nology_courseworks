@@ -1,0 +1,23 @@
+.header { 
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 50vh;
+    background: #0099ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    background-color: #28527a;
+    justify-content: space-between;
+    align-items: center
+
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.navigation {
+  height: 50px;
+  background-color: #28527a;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  background-color: #f0a500;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
+  border: none;
+}
+.button--form {
+  width: 100%;
+  background: #55aff0;
+}
+
+.intro {
+  text-align: center;
+}
+.intro .intro__heading {
+  color: #28527a;
+  font-size: 50px;
+}
+.intro .intro__subheading {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.intro .intro__button {
+  margin: 0 auto;
+  background: #f0a500;
+  display: block;
+  width: 100px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
+}
+
+.wave {
+  vertical-align: top;
+}
+
+.form {
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+.thanks {
+  text-align: center;
+}
+.thanks .thanks__heading {
+  font-family: "Dancing Script", cursive;
+  margin: 20px 0;
+}
+.thanks .button--secondary {
+  margin: 30px auto;
+  background: #f0a500;
+  display: block;
+  width: 100px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
+}
+
+.footer {
+  height: 30px;
+}
+
+.copyright {
+  color: #fafafa;
+}
+
+.date {
+  color: #fafafa;
+}
+
+.header {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 50vh;
+  background: #0099ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  background-color: #28527a;
+  justify-content: space-between;
+  align-items: center;
+}
