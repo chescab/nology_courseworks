@@ -1,0 +1,31 @@
+[class^="con"] {
+    background: #c3aed6;
+
+}
+
+[class^="col"] {
+    background-color: #ffd5cd;
+    border: 2px solid #c3aed6;
+    border-radius: 2px;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+[class^="row"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h1 {
+    color:#8675a9;
+    background-color: #c3aed6;
+}
+
+
+
+/* #c3aed6, #efbbcf, #ffd5cd //
