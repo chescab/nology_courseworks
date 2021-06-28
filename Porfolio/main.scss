@@ -10,14 +10,15 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .nav-sub {
-    margin-right: 15px;
-    display: flex;
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
     justify-content: space-between;
-    align-items: ;
 }
 
 .about {
@@ -39,15 +40,8 @@
     color: black;
     font-family: 'Castoro', serif;
     font-size: 20px;
-}
-
-.blob-1 {
-    position: absolute;
-    width: 292px;
-    height: 461px;
-    left: -117px;
-    top: -55px;
-    background: #343434;
+    margin-right: auto;
+    padding: 0 30px;
 }
 
 .header-container {
@@ -60,11 +54,30 @@
 h1 {
     font-family: Castoro;
     margin-top: 20px;
+    padding: 0 250px;
+    font-size: 60px;
 }
 
 img {
     display: grid;
     justify-content: center;
     margin-top: 100px;
+    padding: 0 400px;
+}
 
+h3 {
+    padding: 0 290px;
+    font-size: 40px;
+}
+
+.info-1 {
+    padding: 0 310px;
+}
+
+.info-2 {
+    padding: 0 330px;
+}
+
+.work-together {
+    padding: 0 450px;
 }
