@@ -3,29 +3,68 @@
     background-color: white;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+    height: auto;
 }
 
 .nav-container {
     background-color: white;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 15px;
+}
+
+.nav-sub {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
 }
 
 .about {
     color: black;
+    font-size: 16px;
 }
 
 .portfolio {
     color: black;
+    font-size: 16px;
 }
 
 .contact {
     color: black;
+    font-size: 16px;
 }
 
 .logo {
     color: black;
     font-family: 'Castoro', serif;
+    font-size: 20px;
+}
+
+.blob-1 {
+    position: absolute;
+    width: 292px;
+    height: 461px;
+    left: -117px;
+    top: -55px;
+    background: #343434;
+}
+
+.header-container {
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Castoro;
+    margin-top: 20px;
+}
+
+img {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+
 }
