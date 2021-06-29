@@ -23,17 +23,17 @@
 
 .about {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .portfolio {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .contact {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .logo {
@@ -45,13 +45,12 @@
 }
 
 .header-container {
-    border: 1px solid black;
     display: grid;
     justify-content: center;
     padding: 10px;
 }
 
-h1 {
+.header__softwaredev {
     font-family: Castoro;
     margin-top: 20px;
     padding: 0 250px;
@@ -65,23 +64,23 @@ img {
     padding: 0 400px;
 }
 
-h3 {
+.header__subheading {
     padding: 0 280px;
     font-size: 40px;
     margin-bottom: 15px;
     line-height: 30px;
 }
 
-.info-1 {
+.header__info-1 {
     padding: 0 310px;
     line-height: 10px;
 }
 
-.info-2 {
+.header__info-2 {
     padding: 0 330px;
     line-height: 0px;
 }
 
-.work-together {
-    padding: 0 450px;
+.header__work-together {
+    padding: 0 430px;
 }
