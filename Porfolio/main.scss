@@ -87,15 +87,15 @@
 
 .about-container {
     background: #273036;
-    border: solid 1px black;
+    display: flex;
+    justify-content:space-evenly;
 }
 .about {
     background-color: #273036;
     height: 500px;
     width: 500px;
-    border: 1px solid white;
-    display: grid;
-    justify-content: flex-end;
+    margin: 40px;
+
 }
 
 .about__title {
@@ -115,16 +115,28 @@
 .wave {
     margin-top: 0;
     padding: 0;
-    width: 1440px;
     display: flex;
     justify-content: flex-start;
 }
 
 
+.image {
+    display: flex;
+}
 
+.tech-image {
+    position: absolute;
+    margin-top: 130px;
+    padding: 0 40px;
+}
 
+.ellipse {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
-
+    
 
 
 
