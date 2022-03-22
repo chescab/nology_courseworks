@@ -14,3 +14,11 @@
     justify-content: center;
 }
 
+.container {
+    max-width: 465px;
+    font-family: "Kanit";
+    font-size: 20px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153,1);
+}
+
