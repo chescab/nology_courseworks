@@ -23,8 +23,10 @@
 }
 
 #display {
-    height: 200px;
+    height: 205px;
     border-radius: 4px;
+    background-color: rgba(20, 14, 16, 0.04);
+    box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 1);
 }
 
 .buttons {
@@ -32,7 +34,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 30px;
     padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 .button {
@@ -40,4 +41,37 @@
     border-radius: 4px;
     text-align: center;
     background-color: #dab4c1;
+    box-shadow: 10px 0px 10px 0px rgba(150, 150, 150, 1);
+}
+
+#equal {
+    background-color: lightblue;
+}
+
+#ce {
+    background-color: lightblue;
+}
+
+#parentheses {
+    background-color: lightblue;
+}
+
+#percentage {
+    background-color: lightblue;
+}
+
+#minus {
+    background-color: lightblue;
+}
+
+#x {
+    background-color: lightblue;
+}
+
+#divide {
+    background-color: lightblue;
+}
+
+#plus {
+    background-color: lightblue;
 }
