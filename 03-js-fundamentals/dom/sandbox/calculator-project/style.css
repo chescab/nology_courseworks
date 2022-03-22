@@ -20,28 +20,29 @@
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgba(153, 153, 153,1);
     border-radius: 20px;
+    padding: 20px;
 }
 
 #display {
     height: 205px;
-    border-radius: 4px;
-    background-color: rgba(20, 14, 16, 0.04);
+    border-radius: 10px;
+    background-color: rgba(20, 14, 16, 0.02);
     box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 1);
+    width: auto;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 30px;
-    padding-bottom: 20px;
 }
 
 .button {
-    border: solid 1px;
-    border-radius: 4px;
+    border: 1px solid;
+    border-radius: 10px;
     text-align: center;
-    background-color: #dab4c1;
-    box-shadow: 10px 0px 10px 0px rgba(150, 150, 150, 1);
+    background-color: #dab4c1 ;
+    box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 1);
+    font-size: 30px;
 }
 
 #equal {
@@ -74,4 +75,10 @@
 
 #plus {
     background-color: lightblue;
+}
+
+.button:hover {
+    background-color: #020002;
+    color: white;
+    transition: 0.5 ease-in-out;
 }
